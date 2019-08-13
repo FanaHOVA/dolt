@@ -4,7 +4,7 @@ class Dolt < Formula
   url 'https://github.com/liquidata-inc/dolt'
   sha256 '2c13dfcf594f5c52780ccc97e932bcfd3128b07ff43018e1622a066b4ff36a3a'
 
-  depends_on :go
+  depends_on "go" => :build
 
   bottle :unneeded
 
